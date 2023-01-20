@@ -1,0 +1,58 @@
+body {
+  background-image: url("background.png");
+  background-repeat: no repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+input {
+  background-color: #9ffb93;
+}
+.containerA {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 0px;
+}
+
+.item {
+  background: linear-gradient(yellow, orange);
+  color: black;
+  font-size: 15px;
+  border: 2px solid red;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 40px;
+  margin: 30px;
+}
+h1 {
+  text-align: center;
+  font: bold 18pt comic sans ms;
+  color: navy;
+}
+
+div {
+  text-align: center;
+  font: bold 12pt comic sans ms;
+  color: navy;
+}
+
+span {
+  text-align: center;
+  font: bold 15pt comic sans ms;
+  text-decoration: #000080;
+}
+
+h3 {
+  color: rgb(0, 51, 0);
+}
+
+p {
+  font: bold 12pt comic sans ms;
+  text-align: center;
+  color: rgb(102, 0, 204);
+}
+
+button {
+  background-color: Transparent;
+}

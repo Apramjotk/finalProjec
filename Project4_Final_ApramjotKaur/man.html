@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grocery List</title>
+  <style>
+    /* CSS styles for the grocery list */
+    #groceryList {
+      width: 500px;
+      margin: 0 auto;
+    }
+    #groceryList ul {
+      list-style: none;
+      padding: 0;
+    }
+    #groceryList li {
+      margin-bottom: 10px;
+    }
+    #groceryList input {
+      width: 60%;
+    }
+    #groceryList button {
+      width: 30%;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="groceryList">
+    <h1>Grocery List</h1>
+    <ul id="list"></ul>
+    <input type="text" id="item" placeholder="Add an item...">
+    <button onclick="addItem()">Add</button>
+  </div>
+  <script>
+    // Function to add a new item to the list
+    function addItem() {
+      // Get the item value from the input field
+      var item = document.querySelector('#item').value;
+
+      // If the item is not empty, add it to the list
+      if (item) {
+        // Create a new list item
+        var li = document.createElement('
